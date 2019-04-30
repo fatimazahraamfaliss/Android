@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Restaurants" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Ecoles et Facultés" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_domain_black_24dp"
+            android:title="Banques" />
+
+        <item
+            android:id="@+id/nav_hopitaux"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="Pharmacies et Hôpitaux " />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="Entreprises" />
+    </group>
+
+    <item android:title="Autres">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_shop_black_24dp"
+                android:title="Places de Shopping" />
+
+        </menu>
+    </item>
+
+</menu>

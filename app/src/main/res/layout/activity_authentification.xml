@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:background="@drawable/editetexte"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="2dp"
+        android:hint="Username"
+        android:padding="10dp"
+        android:textColorHint="#a3a1a1" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="219dp"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/editetexte"
+            android:drawablePadding="5dp"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#a3a1a1" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="227dp"
+        android:background="@drawable/button_bq"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:text="Se connecter"
+        android:textColor="@color/colorprogress"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="131dp"
+        android:layout_height="3dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/view"
+        android:layout_marginEnd="36dp"
+        android:background="#dcdcdc" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="125dp"
+        android:layout_height="3dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="127dp"
+        android:background="#dcdcdc" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="160dp"
+        android:text="Or" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="81dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="56dp"
+        android:layout_toStartOf="@+id/textView"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/googlebutton"
+        android:layout_width="72dp"
+        android:layout_height="57dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginStart="-160dp"
+        android:layout_toEndOf="@+id/textView6"
+        app:srcCompat="@drawable/google" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_login"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/maps" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="79dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginEnd="136dp"
+        android:text="Safi"
+        android:textColor="#ffD700"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/sigunup_bq"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Creer votre Compte"
+        android:textColor="#ffD700"
+        android:textSize="20dp" />
+</RelativeLayout>
